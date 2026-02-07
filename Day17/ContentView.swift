@@ -19,7 +19,7 @@ struct ContentView: View {
                 Color.blue.ignoresSafeArea()
                 Form{
                     Section{
-                        TextField("enter value",
+                        TextField("enter amount",
                                   value: $checkAmount,
                                   format:
                                 .currency(code: Locale.current.currency?.identifier ?? "USD"))
