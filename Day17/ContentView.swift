@@ -48,7 +48,7 @@ struct ContentView: View {
                 }
                 .scrollContentBackground(.hidden)
             }
-            .navigationTitle("Tip calculator")
+            .navigationTitle("Tip calculator.")
             .navigationBarTitleDisplayMode(.inline)
         }
     }
